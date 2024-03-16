@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gabarito:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gantari:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gantari:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gabarito","JetBrains Mono","Gantari";
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(Background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-family: "Gabarito";
+    padding-top: 25%;
+    font-size: 50px;
+    font-weight: 100%;
+}
+
+h2{
+    font-family: "Gabarito";
+    padding-left: 15%;
+    font-size: 30px;
+}
+
+.container2{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(Background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-family: "Gabarito";
+    padding-top: 25%;
+    font-size: 50px;
+    font-weight: 100%;
+}
+
+h2{
+    font-family: "Gabarito";
+    padding-left: 15%;
+    font-size: 30px;
+}
+
+p{
+    margin-top: 20%;
+}
+
+.container1{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(Background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+h3{
+    padding-top: 30px;
+    font-family: "Gabarito";
+    font-size: 50px;
+    padding-left: 15%;
+}
+
+h4{
+    margin-top: 30%;
+    font-family: "Gabarito";
+    padding-left: 50%;
+    justify-content: center;
+    font-size: 20px;
+}
+h6{
+    padding: 50px 60px;
+}
+
+.container3{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(B.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: #ACE4E3;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+.box::before {
+    content: "MYTH";
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #0B4350;
+    font-size: 30px;
+}
